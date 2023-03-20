@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    border: 2px solid black;
+    margin: 50px 450px; 
+    width: 500px;
+    height: 350px;
+    border-radius: 25px;
+    padding: 20px;
+}
+form h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(212, 230, 242);
+}
+
+
+form .first,.second, .third, .fourth, .fifth{
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+form input[type = "text"], input[type = "tel"], input[type = "email"], input[type = "password"] {
+    padding: 5px;
+    border-radius: 5px;
+   
+}
+
+form input[id = "fi"]{
+    margin-left: 25px;
+}
+form input[id = "tl"]{
+    margin-left: 82px;
+}
+form input[id = "ma"]{
+    margin-left: 58px;
+}
+form input[id = "pd"]{
+    margin-left: 32px;
+}
+form input[type = "text"]:hover{
+    cursor: pointer;
+    background-color: rgb(212, 230, 242);
+}
+form input[type = "tel"]:hover{
+    cursor: pointer;
+    background-color: rgb(212, 230, 242);
+}
+form input[type = "password"]:hover{
+    cursor: pointer;
+    background-color: rgb(212, 230, 242);
+}
+form .six{
+margin-left: 200px;
+margin-top: 20px;
+}
+form .btn{
+    padding: 5px;
+    border-radius: 5px;
+}
+form .btn:hover{
+    background-color:rgb(212, 230, 242) ;
+    cursor: pointer;
+}
